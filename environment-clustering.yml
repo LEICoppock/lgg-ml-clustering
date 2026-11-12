@@ -1,0 +1,14 @@
+name: rapids_env
+channels:
+  - rapidsai
+  - conda-forge
+  - nvidia
+dependencies:
+  - python=3.11
+  - cuml=24.12.0
+  - cuda-version=12.5
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - cupy
